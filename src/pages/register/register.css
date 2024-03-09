@@ -1,0 +1,100 @@
+
+.register-header {
+  margin-bottom: 25px;
+  margin-left: 820px;
+}
+
+.register-header h1 {
+  font-size: 2em;
+  padding-top: 20px;
+  color: #333;
+}
+
+
+.register-form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-left: 820px;
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  background-color: #71BCAA;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #71BCAA;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.fa:hover {
+  color: #007bff;
+}
+.logo_1{
+  background-color: #102335;
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-left: 820px;
+  font-size: 40px;
+}
+
+footer a {
+  
+  color: inherit; /* Use the default text color */
+  
+}
+
+footer a i {
+  font-size: 20px;
+  color: inherit;
+  margin: 0 10px;
+  
+}
+
+footer a:hover {
+  
+  color: inherit; /* Ensure hover color matches the default text color */
+}
+footer li {
+  list-style-type: none; /* Remove bullet points */
+}
+
